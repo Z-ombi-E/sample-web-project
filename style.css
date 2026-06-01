@@ -1,5 +1,16 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.imgContainer{
+    width: 1000px;
+    height: 200px;
+    background-image: url("wallpaperflare.com_wallpaper (2).jpg");
+    background-size: 900px 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
 }
 .container{
     display: flex;
@@ -20,6 +31,10 @@ body{
     transition: background-color 0.4s, transform 0.5s;
 }
 
+button{
+    font-size: 1.2em;
+    width: 150px;
+}
 .container .btn2{
     border: none;
     padding: 15px 20px;
@@ -31,7 +46,29 @@ body{
     transition: background-color 0.4s, transform 0.5s;
 }
 
+.container .btn3{
+    border: none;
+    padding: 15px 20px;
+    background-color: hsl(207, 100%, 50%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.5s;
+}
+
+p{
+    font-size: 1.2em;
+}
 
 .btn1:hover{
     background-color: hsl(96, 100%, 41%);
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
 }

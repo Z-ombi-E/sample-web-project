@@ -9,3 +9,7 @@ function clearMessage(){
     message.textContent = " ";
     console.log("qqqqqqq");
 }
+
+function showName(){
+    message.textContent = "Nethum";
+}
