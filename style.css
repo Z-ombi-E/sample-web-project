@@ -9,7 +9,7 @@ body{
     padding: 100px;
 }
 
-.container .btn{
+.container .btn1{
     border: none;
     padding: 15px 20px;
     background-color: hsl(96, 100%, 50%);
@@ -17,8 +17,21 @@ body{
     color: white;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.4s, transform 0.5s;
 }
 
-.btn:hover{
+.container .btn2{
+    border: none;
+    padding: 15px 20px;
+    background-color: hsl(32, 100%, 50%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.5s;
+}
+
+
+.btn1:hover{
     background-color: hsl(96, 100%, 41%);
 }
